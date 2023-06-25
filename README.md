@@ -51,14 +51,18 @@ All duplicate rows were dropped.
 Null values in columns company and agent were replaced by 0.
 Null values in column country were replaced by 'others'.
 Null values in column children were replaced by the mean of the column.
+
 **(3) Converting columns to appropriate data types**
 Changed data type of children, company, agent to int type.
 Changed data type of reservation_status_date to date type.
+
 **(4) Removing outliers**
 One outlier was found in the adr column. Simply dropped it.
+
 **(5) Creating new columns**
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Created new column total_people by adding adults+children+babies.
+
 **#Exploratory Data Analysis**
 **Performed EDA and tried answering the following questions:**
 
@@ -99,18 +103,30 @@ Box Plot
 
 **#Conclusion**
 (1) Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall adr of City hotel is slightly higher than Resort hotel.
+
 (2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.
+
 (3) Both hotels have significantly higher booking cancellation rates and very few guests less than 3 % return for another booking in City hotel. 5% guests return for stay in Resort hotel.
+
 (4) Most of the guests came from european countries, with most of guests coming from Portugal.
+
 (5) Guests use different channels for making bookings out of which most preferred way is TA/TO.
+
 (6) For hotels higher adr deals come via GDS channel, so hotels should increase their popularity on this channel.
 (7) Almost 30% of bookings via TA/TO are cancelled.
+
 (8) Not getting same room as reserved, longer lead time and waiting time do not affect cancellation of bookings. Although different room allotment do lowers the adr.
-(9) July- August are the most busier and profitable months for both of hotels. 
+
+(9) July- August are the most busier and profitable months for both of hotels.
+
 (10) Within a month, adr gradually increases as month ends, with small sudden rise on weekends.
+
 (11) Couples are the most common guests for hotels, hence hotels can plan services according to couples needs to increase revenue.
+
 (12) More number of people in guests results in more number of special requests.
+
 (13) Bookings made via complementary market segment and adults have on average high no. of special request.
+
 (14) For customers, generally the longer stays (more than 15 days) can result in better deals in terms of low adr.
 
 And many more conclusions.
